@@ -7,7 +7,7 @@ const Post = (props) => {
             <img src="https://image.shutterstock.com/image-vector/young-man-avatar-character-260nw-661669825.jpg" alt=""/>
             {props.message}
             <div>
-                <span>{props.likes} likes</span>
+                {props.likes} <span>likes</span>
             </div>  
         </div>
     )
